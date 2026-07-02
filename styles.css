@@ -1,3 +1,12 @@
+.title{
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  padding: 48px;
+  padding-top: 90px;
+  border-top: 1px black solid;
+}
+
 /* Navbar */
 .navbar {
     display: flex;
@@ -101,4 +110,98 @@
   cursor: pointer;
   background-color: lightblue;
   box-shadow: 1px 1px burlywood;
+}
+
+/* Team information section */
+.worker-container{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 0px 24px 95px 24px;
+}
+
+ .worker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  gap: 8px;
+  padding: 24px;
+  color: red;
+  text-shadow: 2px 2px 2px black;
+} 
+
+.worker-icon{
+  width: 200px;
+  height: 200px;
+  border: 12px solid rgb(230,250,250);
+  border-radius: 32px;
+  box-shadow: 2px 2px 3px black;
+  object-fit: cover;
+}
+
+.worker-text{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 200px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Project Portfolio Section */
+.portfolio-section{
+  justify-content: center;
+  border-bottom: solid black 1px;
+  background-image: linear-gradient(
+    60deg,
+    rgba(57,60,90,0.85),
+    rgba(180,180,120,0.5)
+  ),
+    url(images/cat-icon.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.portfolio-container{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 0px 24px 95px 24px;
+}
+
+.portfolio-title{
+  color: white;
+  text-shadow: 2px 2px rgb(12, 4, 4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  padding: 24px;
+  width: 300px;
+}
+
+.portfolio-icon{
+  width: 200px;
+  height: 200px;
+  border: 12px solid lightblue;
+  border-radius: 32px;
+  box-shadow: 2px 2px 3px black;
+  object-fit: cover;
+}
+
+.portfolio-icon:hover{
+  border: 12px solid skyblue;
+  border-radius: 32px;
+  box-shadow:2px 2px 10px navy
+}
+
+.portfolio-text{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  flex-wrap: wrap;
+  min-width: 200px;
+  font-size: 18px;
+  font-weight: bold;
 }
