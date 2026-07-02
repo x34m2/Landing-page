@@ -7,6 +7,15 @@
   border-top: 1px black solid;
 }
 
+p{
+  color: whitesmoke;
+}
+
+a{
+  color: black;
+}
+
+
 /* Navbar */
 .navbar {
     display: flex;
@@ -204,4 +213,122 @@
   min-width: 200px;
   font-size: 18px;
   font-weight: bold;
+}
+
+/* Testimonial Section */
+
+.quote-section{
+  display: flex;
+  flex-direction: column;
+  padding: 128px 128px 96px;
+  background-color: lightblue;
+  border-bottom: solid black 1px;
+  font-size: 24px;
+  line-height: 150%;
+  font-style: italic;
+}
+
+.quote-section p{
+  text-align: end;
+  font-style: normal;
+  font-weight:700;
+  color:sienna;
+}
+
+/* Contact info Section  */
+.contact-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-image: linear-gradient(
+    60deg,
+    rgba(57,60,90,0.85),
+    rgba(180,180,120,0.5)
+  ),
+  url(images/cat-icon.png);
+  background-position: center;
+  background-size: cover;
+
+  font-weight: bold;
+  text-shadow: black 1px 1px;
+}
+
+.contact-info-container{
+  margin-bottom: 36px;
+}
+
+.contact-info-row{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 24px;
+  font-size:20px;
+}
+
+.contact-icon{
+  height: 30px;
+  width: 30px;
+}
+
+.contact-section a {
+  color: rgb(243, 233, 233);
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+
+/* Email signup Section  */
+
+.signup-section{
+  display: flex;
+  justify-content: center;
+  border-bottom: solid black 2px;
+  border: solid black 2px;
+}
+
+.signup-box{
+  display: flex;
+  align-items: center;
+  background-color: sienna;
+  border: 12px solid lightblue;
+  border-radius: 24px;
+  box-shadow: 2px 2px 2px black;
+  margin: 128px 48px;
+  padding: 32px 48px;
+  max-width: 1100px;
+}
+
+.email-text h2{
+  color: lightblue;
+  text-shadow: 1px 1px black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 8px;
+}
+
+.email-text p{
+  padding-right: 24px;
+}
+
+.email-btn{
+  flex-shrink: 0;
+  height: 36px;
+  width: 128px;
+  padding: 4px 24px;
+  margin: 24px auto;
+  background-color: rgb(230,250,250);
+  border-radius: 4px;
+  border: 3px solid lightblue;
+  box-shadow: 2px 2px 3px black;
+  font-weight: 400;
+}
+
+/* Footer */
+footer p{
+  padding: 24px;
+  text-align: center;
+  color: black;
+  background-color: rgb(230,250,250);
 }
